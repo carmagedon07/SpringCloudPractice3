@@ -6,7 +6,8 @@ spring:
     config:
       server:
         git:
-          default-label: config-service
+          #default-label: config-service
+          default-label: eureka
           uri: https://github.com/carmagedon07/SpringCloudPractice3
           search-paths: config-data
 
